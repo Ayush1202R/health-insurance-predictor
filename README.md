@@ -2,99 +2,71 @@
 
 This is a Streamlit-based machine learning web application that predicts health insurance cost based on user details.
 
-Overview
+# Overview
 
 This project is an end-to-end Healthcare Premium Prediction System that uses machine learning to estimate medical insurance costs using features such as age, BMI, smoking status, number of children, and region.
 
-System Includes
+# System Includes
 
-Data preprocessing
+- Data preprocessing
+- Model training
+- Interactive Streamlit interface
+- Real-time prediction
+- Deployment-ready structure
 
-Model training
+# Features
 
-Interactive Streamlit interface
+- Clean dataset preprocessing
+- Machine learning model with good accuracy
+- Simple and interactive Streamlit interface
+- Real-time healthcare cost prediction
+- Easy deployment
 
-Real-time prediction
+# Machine Learning Workflow
 
-Deployment-ready structure
+- Data cleaning
+- Encoding categorical variables
+- Train-test split
+- Model training
+- Model evaluation
+- Saving the trained model
 
-Features
+# Tech Stack
 
-Clean dataset preprocessing
+- Streamlit
+- Scikit-Learn
+- Pandas
+- NumPy
+- Python
 
-Machine learning model with good accuracy
 
-Simple and interactive Streamlit interface
+  
+# How to Run Locally
 
-Real-time healthcare cost prediction
-
-Easy deployment
-
-Machine Learning Workflow
-
-Data cleaning
-
-Encoding categorical variables
-
-Train-test split
-
-Model training
-
-Model evaluation
-
-Saving the trained model
-
-Tech Stack
-
-Streamlit
-
-Scikit-Learn
-
-Pandas
-
-NumPy
-
-Python
-
-Project Structure
-healthcare-predictor/
- ├── app.py
- ├── model.pkl
- ├── requirements.txt
- ├── README.md
- └── data/
-      └── insurance.csv
-
-How to Run Locally
-1. Clone the Repository
+## 1. Clone the Repository
 git clone https://github.com/yourusername/healthcare-predictor.git
 
-2. Install Dependencies
+## 2. Install Dependencies
 pip install -r requirements.txt
 
-3. Run the Streamlit App
+
+## 3. Run the Streamlit App
 streamlit run app.py
 
-Usage
+# Usage
 
 Users need to input the following details:
-
-Age
-
-Gender
-
-BMI
-
-Smoker (Yes/No)
-
-Number of children
-
-Region
+- Age
+- Gender
+- BMI
+- Smoker (Yes/No)
+- Number of children
+- Region
 
 The app will return the predicted healthcare premium.
 
-Author
+# Author
 
-Ayush Pandey
-B.Tech – Robotics and Automation
-Machine Learning and AI Enthusiast
+Ayush Pandey  
+
+

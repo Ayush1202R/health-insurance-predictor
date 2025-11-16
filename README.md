@@ -44,7 +44,7 @@ This project is an end-to-end Healthcare Premium Prediction System that uses mac
 # How to Run Locally
 
 ## 1. Clone the Repository
-git clone https://github.com/yourusername/healthcare-predictor.git
+git clone https://github.com/Ayush1202R/health-insurance-predictor.git
 
 ## 2. Install Dependencies
 pip install -r requirements.txt
